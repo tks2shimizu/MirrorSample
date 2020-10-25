@@ -92,6 +92,7 @@ GameObject:
   - component: {fileID: 2989634489762621055}
   - component: {fileID: 54629351502881016}
   - component: {fileID: 114614663593410268}
+  - component: {fileID: 114171384204708136}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -212,13 +213,20 @@ MonoBehaviour:
   syncInterval: 0.1
   characterController: {fileID: 143135133063352056}
   capsuleCollider: {fileID: 2989634489762621055}
-  moveSpeed: 8
-  turnSensitivity: 5
-  maxTurnSpeed: 150
-  horizontal: 0
-  vertical: 0
-  turn: 0
-  jumpSpeed: 0
-  isGrounded: 1
-  isFalling: 0
-  velocity: {x: 0, y: 0, z: 0}
+--- !u!114 &114171384204708136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2989634489762621054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d1f80407105ee4f960f0b51e89452d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  color:
+    serializedVersion: 2
+    rgba: 4278190080
